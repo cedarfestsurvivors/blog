@@ -1,0 +1,21 @@
+# Site settings
+title: "Cedar Fest Survivors"
+logo: logo.png # image from https://www.flickr.com/photos/lwr/5496279831/in/set-72157594159055823
+email: contact@cedarfestsurvivors.com
+description: > # this means to ignore newlines until "url:"
+  This site is dedicated to all of those that survived the infamous Cedar Fest.
+url: "http://cedarfestsurvivors.com" # the base hostname & protocol for your site
+# baseurl: "/blog" # the subpath of your site, e.g. /blog/
+twitter_username: jekyllrb
+github_username:  jekyll
+
+permalink: pretty
+paginate: 5
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
